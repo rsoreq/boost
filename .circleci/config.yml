@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cppalliance/boost_superproject_build:24.04-v1
+      - image: cppalliance/boost_superproject_build:24.04-v1@sha256:ba94ab6d4ff61bde252d101ad9247d3cd03ce959cbc19a8b7f52bbe7a7da7592
     parallelism: 2
     steps:
       - checkout
